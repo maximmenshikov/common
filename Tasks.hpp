@@ -20,7 +20,7 @@ static void _PageManager_OnVisibleRegionChange(SHELL_PAGE hPage, RECT rcVisibleR
 {
 }
 
-static void _PageManager_OnSipDeployChange(SHELL_PAGE hPage, bool fDeployed)
+static void _PageManager_OnSipDeployChange(SHELL_PAGE hPage, bool deployed)
 {
 
 }
@@ -30,15 +30,15 @@ static BOOL _PageManager_OnBackRequest(SHELL_PAGE hPage)
 	return TRUE;
 }
 
-static void _PageManager_OnUiOrientationChange(Orientation::Orientation orientation, bool fAnimate)
+static void _PageManager_OnUiOrientationChange(Orientation::Orientation orientation, bool animate)
 {
 }
 
-static void _PageManager_OnObscurityChange(bool fObscured)
+static void _PageManager_OnObscurityChange(bool obscured)
 {
 }
 
-static void _PageManager_OnLockStateChange(bool fLocked)
+static void _PageManager_OnLockStateChange(bool locked)
 {
 }
 
